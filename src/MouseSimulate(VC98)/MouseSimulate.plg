@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MouseSimulate - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MouseSimulate.res" /d "_DEBUG" /d "_AFXDLL" "F:\0CVSHOME\+Utility\鼠标动作记录和回放\src\MouseSimulate(VC98)\MouseSimulate.rc"" 
+Creating temporary file "C:\DOCUME~1\CNJ\LOCALS~1\Temp\RSP13.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MouseSimulate.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\0CVSHOME\+Utility\鼠标动作记录和回放\src\MouseSimulate(VC98)\MouseHook.cpp"
+"F:\0CVSHOME\+Utility\鼠标动作记录和回放\src\MouseSimulate(VC98)\MouseSimulate.cpp"
+"F:\0CVSHOME\+Utility\鼠标动作记录和回放\src\MouseSimulate(VC98)\MouseSimulateDlg.cpp"
+"F:\0CVSHOME\+Utility\鼠标动作记录和回放\src\MouseSimulate(VC98)\NotifyIcon.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CNJ\LOCALS~1\Temp\RSP13.tmp" 
+Creating temporary file "C:\DOCUME~1\CNJ\LOCALS~1\Temp\RSP14.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MouseSimulate.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\0CVSHOME\+Utility\鼠标动作记录和回放\src\MouseSimulate(VC98)\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CNJ\LOCALS~1\Temp\RSP14.tmp" 
+Creating temporary file "C:\DOCUME~1\CNJ\LOCALS~1\Temp\RSP15.tmp" with contents
+[
+user32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MouseSimulate.pdb" /debug /machine:I386 /out:"Debug/MouseSimulate.exe" /pdbtype:sept 
+".\Debug\MouseHook.obj"
+".\Debug\MouseSimulate.obj"
+".\Debug\MouseSimulateDlg.obj"
+".\Debug\NotifyIcon.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MouseSimulate.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\CNJ\LOCALS~1\Temp\RSP15.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MouseHook.cpp
+MouseSimulate.cpp
+MouseSimulateDlg.cpp
+NotifyIcon.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MouseSimulate.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MouseSimulate", "MouseSimulate.vcproj", "{6F724571-A780-4C04-B07D-1505ABD8C043}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6F724571-A780-4C04-B07D-1505ABD8C043}.Debug.ActiveCfg = Debug|Win32
+		{6F724571-A780-4C04-B07D-1505ABD8C043}.Debug.Build.0 = Debug|Win32
+		{6F724571-A780-4C04-B07D-1505ABD8C043}.Release.ActiveCfg = Release|Win32
+		{6F724571-A780-4C04-B07D-1505ABD8C043}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
